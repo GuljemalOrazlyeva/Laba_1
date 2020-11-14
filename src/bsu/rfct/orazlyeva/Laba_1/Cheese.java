@@ -1,4 +1,11 @@
 package bsu.rfct.orazlyeva.Laba_1;
 
-public class Cheese {
+public class Cheese extends Food {
+    public Cheese() {
+        super("Cheese");
+    }
+
+    public void consume() {
+        System.out.println(this + " is eaten");
+    }
 }
